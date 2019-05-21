@@ -120,17 +120,17 @@ int main() {
     person.ChangeFirstName(1965, "Polina");
     person.ChangeLastName(1967, "Sergeeva");
     for (int year : {1900, 1965, 1990}) {
-    cout << person.GetFullNameWithHistory(year) << endl;
+        cout << person.GetFullNameWithHistory(year) << endl;
     }
 
     person.ChangeFirstName(1970, "Appolinaria");
     for (int year : {1969, 1970}) {
-    cout << person.GetFullNameWithHistory(year) << endl;
+        cout << person.GetFullNameWithHistory(year) << endl;
     }
 
     person.ChangeLastName(1968, "Volkova");
     for (int year : {1969, 1970}) {
-    cout << person.GetFullNameWithHistory(year) << endl;
+        cout << person.GetFullNameWithHistory(year) << endl;
     }
 
     person.ChangeFirstName(1990, "Polina");
@@ -142,7 +142,7 @@ int main() {
 
     person.ChangeLastName(1960, "Sergeeva");
     for (int year : {1960, 1967}) {
-    cout << person.GetFullNameWithHistory(year) << endl;
+        cout << person.GetFullNameWithHistory(year) << endl;
     }
 
     person.ChangeLastName(1961, "Ivanova");
